@@ -1,0 +1,20 @@
+{
+  "name": "fetchdelta-client",
+  "version": "0.2.0",
+  "description": "Budget-capped x402 client for FetchDelta public-page APIs",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "bin": { "fetchdelta": "./agent-client.mjs" },
+  "exports": "./agent-client.mjs",
+  "files": ["agent-client.mjs", "README.md", "LICENSE"],
+  "repository": { "type": "git", "url": "https://github.com/henrihallik/fetchdelta-client.git" },
+  "homepage": "https://fetchdelta.com",
+  "bugs": { "url": "https://github.com/henrihallik/fetchdelta-client/issues" },
+  "keywords": ["ai-agents", "x402", "usdc", "markdown", "page-monitoring", "fetchdelta"],
+  "dependencies": {
+    "@x402/evm": "2.7.0",
+    "@x402/fetch": "2.7.0",
+    "viem": "2.47.4"
+  }
+}
