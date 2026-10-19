@@ -2,7 +2,7 @@
 import { open, readFile, realpath } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
 
-export const CLIENT_VERSION = "0.2.0";
+export const CLIENT_VERSION = "0.3.0";
 
 const PRODUCTS = {
   resolve: { path: "/api/resolve", maxUrls: 1, price: "0.002" },
